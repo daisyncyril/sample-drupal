@@ -1,0 +1,44 @@
+.page-node-type-product {
+
+	.field--name-field-short-text,
+	.field--name-field-long-text {
+
+		p {
+			font-family: $primary-font;
+			font-size: 16px;
+			color: $primary-color;
+		}
+	}
+
+	.inner-page-title {
+		font-family: $primary-font;
+		font-size: 24px;
+		color: $primary-color;
+		font-weight: 700;
+		margin-top: 0;
+	}
+
+	.field--name-field-link {
+
+		a {
+			font-family: $primary-font;
+			font-size: 16px;
+			color: $color-orange;
+			font-weight: bold;
+			text-decoration: underline;
+			border: 0;
+		}
+	}
+
+	.slick-demo {
+		margin-top: 60px;
+		width: 100%;
+	}
+
+	.slick-dots {
+
+		.slick-active {
+			background: $color-orange;
+		}
+	}
+}
